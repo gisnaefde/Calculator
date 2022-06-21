@@ -1,0 +1,10 @@
+console.log(document) // untuk melihat list dokumwn yang dapat digunakan di jendela
+document.getElementById(“display”);  //uMengembalikan elemen yang memiliki nilai id “display”.
+document.querySelector(“.button”); //Mengembalikan elemen pertama yang menerapkan class “button”.
+document.querySelectorAll(“.button”); //Mengembalikan kumpulan Node beserta turunannya (NodeList) dengan class “button”.
+someElement.setAttribute("attributName", "attributeValue"); //untuk merubah atribut
+getAttribute(namaAtribut); //Untuk mendapatkan isi atribut
+innerHTML //untuk mengubah konten di HTML
+createElement() //Untuk menambahkan Element baru di HTML
+appendChild(); // Untuk menambhakan atribut pada tag body, contoh document.body.appendChild(newElement); yaitu menambhkan newElement pada body
+

@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    /* flex-direction: column;/*agar flex menjadi horizontal */
+
+    /* Properti lainnya */
+    width: 800px;
+    height: 250px;
+    background-color: #11C5C6;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.box {
+    flex-grow: 1;
+
+    /* properti lainnya */
+    background-color: #FBDD1C;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.first {
+    flex-grow: 3; /* agar kolom di esuaikan ukurannya*/
+}
+.second {
+    flex-grow: 2;
+}
+.third {
+    flex-grow: 1;
+}
