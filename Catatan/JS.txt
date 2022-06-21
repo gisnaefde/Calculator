@@ -8,3 +8,4 @@ innerHTML //untuk mengubah konten di HTML
 createElement() //Untuk menambahkan Element baru di HTML
 appendChild(); // Untuk menambhakan atribut pada tag body, contoh document.body.appendChild(newElement); yaitu menambhkan newElement pada body
 
+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
